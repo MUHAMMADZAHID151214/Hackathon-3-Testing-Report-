@@ -1,0 +1,21 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate product listing page,Open product page > Verify product display,Products displayed correctly,Products displayed correctly,Passed,Low,-,No issues found
+TC002,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,Medium,-,Handled gracefully
+TC003,Check cart functionality,Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,High,-,Works as expected
+TC004,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Medium,-,Test successful
+TC005,Validate user login,Enter valid credentials > Click login,User logs in successfully,User logged in successfully,Passed,High,-,No issues found
+TC006,Validate incorrect login,Enter wrong credentials > Click login,Show error message for incorrect login,Error message displayed,Passed,High,-,Security check passed
+TC007,Test product search function,Enter product name in search bar > Click search,Relevant products displayed,Correct search results shown,Passed,Medium,-,Search is functional
+TC008,Validate checkout process,Add product to cart > Proceed to checkout > Complete payment,Order successfully placed,"Payment successful, order placed",Passed,Critical,-,Payment integration verified
+TC009,Test payment failure handling,Simulate failed payment > Check error message,Show error message with retry option,"Error message displayed, retry available",Passed,Critical,-,Error handled properly
+TC010,Validate order tracking,Place an order > Go to order tracking page,Order status displayed correctly,Order status updated as expected,Passed,Medium,-,Tracking system works
+TC011,Check add to wishlist feature,Add product to wishlist > Verify wishlist,Product added to wishlist,Product successfully added,Passed,Low,-,Wishlist works fine
+TC012,Validate user profile update,Update user profile details > Save changes,Profile updated successfully,Profile updated correctly,Passed,Low,-,Profile management works
+TC013,Check logout functionality,Click logout button,User logged out and redirected to login page,Logout successful,Passed,Low,-,No issues found
+TC014,Test coupon code application,Apply valid coupon at checkout,Discount applied correctly,Discount applied as expected,Passed,Medium,-,Coupon system works
+TC015,Check invalid coupon handling,Apply expired/invalid coupon,Show error message for invalid coupon,Error message displayed,Passed,Low,-,Error handled properly
+TC016,Validate guest checkout,Add product to cart > Checkout without login,Order placed without login,Guest checkout successful,Passed,Medium,-,Guest checkout works
+TC017,Test bulk order processing,Add multiple items > Checkout,Order successfully placed,Order placed with all items,Passed,High,-,Bulk orders supported
+TC018,Verify email notification,Place order > Check email,Order confirmation email received,Email received successfully,Passed,Medium,-,Email system works
+TC019,Test product review system,Submit review > Verify review displayed,Review successfully posted,Review displayed correctly,Passed,Low,-,Review system functional
+TC020,Validate return/refund process,Initiate return request > Verify refund,Refund initiated successfully,Refund processed as expected,Passed,High,-,Return/refund system works
